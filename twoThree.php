@@ -2,12 +2,14 @@
 
 class twoThree {
 
+// Randomized every iteration.
 var $prizes = [true, false, false];
 // The picks are set to numbers above the length of the prizes array after every pick.
 var $firstPick = 5;
 var $presentorShows = 5;
 var $secondPick = 5;
 
+// The counters, to display once the loop is done.
 var $didRepick = 0;
 var $didNotRepick = 0;
 var $amountStaySuccess = 0;
